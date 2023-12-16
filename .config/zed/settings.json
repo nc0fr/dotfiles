@@ -1,0 +1,46 @@
+// Copyright 2023 Nicolas Paul. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+{
+  "buffer_font_family": "Zed Mono",
+  "buffer_font_size": 13,
+  "confirm_quit": false,
+  "copilot": {
+    "disabled_globs": [
+      ".env"
+    ]
+  },
+  "enable_language_server": true,
+  "ensure_final_newline_on_save": true,
+  "lsp": {},
+  "format_on_save": "on",
+  "formatter": "language_server",
+  "git": {
+    "git_gutter": "tracked_files",
+  },
+  "hard_tabs": false,
+  "hover_popover_enabled": true,
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_other_hints": true,
+    "show_parameter_hints": true
+  },
+  "preferred_line_length": 80,
+  "remove_trailing_whitespace_on_save": true,
+  "semantic_index": {
+    "enabled": true
+  },
+  "relative_line_numbers": true,
+  "language_overrides": {
+    "Go": {
+      "hard_tabs": true
+    }
+  },
+  "theme": "Summercamp",
+  "vim_mode": true,
+  "project_panel": {
+    "dock": "right",
+    "git_status": true,
+  }
+}
