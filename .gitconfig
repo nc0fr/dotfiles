@@ -1,0 +1,35 @@
+; Copyright 2023 Nicolas Paul. All rights reserved.
+; Use of this source code is governed by a BSD-style
+; license that can be found in the LICENSE file.
+
+; Git configuration (https://git-scm.com)
+
+[core]
+    editor         = "$EDITOR"
+    fileMode       = true
+    pager          = "$PAGER"
+[user]
+    email          = "n@nc0.fr"
+    name           = "Nicolas Paul"
+    signingKey     = C1478EC71E6E6923
+    username       = "NC0"
+[help]
+    autoCorrect    = false
+[credential]
+    helper         = "cache --timeout=7200"
+[color]
+    ui             = "auto"
+[init]
+    defaultBranch  = "master"
+[commit]
+    gpgSign        = true
+    template       = "~/.gitmessage"
+    verbose        = true
+[sendemail]
+    smtpEncryption = "ssl"
+    smtpServer     = "smtp.mail.me.com"
+    smtpServerPort = 587
+    smtpUser       = "n@nc0.fr"
+[pull]
+    rebase         = true
+
