@@ -24,7 +24,7 @@
 [init]
     defaultBranch = "master"
 [push]
-    gpgSign = true
+    gpgSign = "if-asked"
 [sendemail]
     smtpEncryption = "ssl"
     smtpServer     = "smtp.mail.me.com"
