@@ -1,0 +1,10 @@
+{
+    "[lua]": {
+        "editor.semanticHighlighting.enabled": true,
+        "editor.defaultFormatter": "JohnnyMorganz.stylua"
+    },
+    "files.associations": {
+        "README": "plaintext",
+        "LICENSE": "plaintext"
+    }
+}
