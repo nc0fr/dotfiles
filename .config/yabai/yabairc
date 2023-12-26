@@ -23,9 +23,9 @@ yabai -m config mouse_action1       move
 yabai -m config mouse_action2       resize
 yabai -m mouse_drop_action swap
 
-# Ignore the following apps since they are used quickly.
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Archive Utility$" manage=off
 yabai -m rule --add app="^Calculator$"      manage=off
+yabai -m rule --add app=Emacs               manage=on
 
 # vim:ft=conf
