@@ -15,12 +15,13 @@ syntax on
 set autoindent
 set backspace=indent,eol,start
 set clipboard=unnamed
-set colorcolumn=50,72,80,100,120
+set colorcolumn=80
 set encoding=utf-8
 set expandtab 
 set ignorecase
 set incsearch
 set laststatus=0
+set list
 set listchars=eol:⏎,space:·,tab:→\ 
 set matchpairs=(:),{:},[:],<:>
 set mouse=a
