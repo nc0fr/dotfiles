@@ -5,3 +5,4 @@
 -- Custom key mappings.
 
 vim.g.mapleader = ","
+

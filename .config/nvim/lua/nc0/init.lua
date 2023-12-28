@@ -7,3 +7,5 @@
 
 local _ = require("nc0.options")
 local _ = require("nc0.mappings")
+local _ = require("nc0.plugins")
+

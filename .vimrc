@@ -11,6 +11,16 @@ set nocompatible
 filetype plugin on
 syntax on
 
+# Plugins
+# -------
+#
+#  Manually installed within the ".vim/pack/nc0/{start,opt}".
+#
+#  Installed plugins:
+#
+#    * fzf:     https://github.com/junegunn/fzf
+#    * fzf.vim: https://github.com/junegunn/fzf.vim
+
 # Options
 set autoindent
 set autoread
@@ -56,4 +66,13 @@ colo retrobox
 # unless required otherwise, the rationale being keys defined on the
 # leader key are most likely to not override any existing binding.
 g:mapleader = ","
+
+# FZF configuration
+
+nmap <Leader>ff :Files<CR>
+nmap <Leader>fg :GFiles<CR>
+nmap <Leader>fc :Colors<CR>
+nmap <Leader>fb :Buffers<CR>
+nmap <Leader>fw :Windows<CR>
+nmap <Leader>fh :History<CR>
 

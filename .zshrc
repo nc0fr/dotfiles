@@ -28,3 +28,5 @@ else
   export EDITOR='vi'
 fi
 
+export FZF_DEFAULT_COMMAND='rg --hidden -l ""'
+
