@@ -13,20 +13,24 @@ syntax on
 
 # Options
 set autoindent
+set autoread
 set backspace=indent,eol,start
+set belloff=all
 set clipboard=unnamed
 set colorcolumn=80
 set encoding=utf-8
-set expandtab 
+set expandtab
+set hidden
+set history=10000
+set hlsearch
 set ignorecase
 set incsearch
 set laststatus=0
 set list
-set listchars=eol:⏎,space:·,tab:→\ 
+set listchars=trail:·,tab:→\ 
 set matchpairs=(:),{:},[:],<:>
 set mouse=a
 set nobackup
-set nohlsearch
 set noshowcmd
 set noswapfile
 set number
@@ -40,6 +44,7 @@ set splitright
 set tabstop=4
 set title
 set wildmode=longest,list,full
+set wildoptions=fuzzy,pum,tagfile
 
 set background=dark
 colo retrobox
