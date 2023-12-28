@@ -16,3 +16,6 @@
 [submodule ".vim/pack/nc0/start/textobj-word-column"]
 	path = .vim/pack/nc0/start/textobj-word-column
 	url = https://github.com/coderifous/textobj-word-column.vim
+[submodule ".vim/pack/nc0/start/surround"]
+	path = .vim/pack/nc0/start/surround
+	url = https://github.com/tpope/vim-surround
