@@ -18,8 +18,9 @@ syntax on
 #
 #  Installed plugins:
 #
-#    * fzf:     https://github.com/junegunn/fzf
-#    * fzf.vim: https://github.com/junegunn/fzf.vim
+#    * fzf          -> https://github.com/junegunn/fzf
+#    * fzf.vim      -> https://github.com/junegunn/fzf.vim
+#    * editorconfig -> https://github.com/editorconfig/editorconfig-vim
 
 # Options
 set autoindent
@@ -75,4 +76,8 @@ nmap <Leader>fc :Colors<CR>
 nmap <Leader>fb :Buffers<CR>
 nmap <Leader>fw :Windows<CR>
 nmap <Leader>fh :History<CR>
+
+# EditorConfig configuration
+
+g:EditorConfig_exclude_patterns = ['fugitive://.*']
 
