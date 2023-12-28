@@ -18,9 +18,18 @@ syntax on
 #
 #  Installed plugins:
 #
-#    * fzf          -> https://github.com/junegunn/fzf
-#    * fzf.vim      -> https://github.com/junegunn/fzf.vim
-#    * editorconfig -> https://github.com/editorconfig/editorconfig-vim
+#    * fzf
+#       -> https://github.com/junegunn/fzf
+#    * fzf.vim
+#       -> https://github.com/junegunn/fzf.vim
+#    * editorconfig
+#       -> https://github.com/editorconfig/editorconfig-vim
+#    * textobj-user
+#       -> https://github.com/kana/vim-textobj-user
+#    * textobj-indent
+#       -> https://github.com/kana/vim-textobj-indent
+#    * textobj-word-column
+#       -> https://github.com/coderifous/textobj-word-column.vim
 
 # Options
 set autoindent
