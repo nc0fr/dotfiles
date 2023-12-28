@@ -24,7 +24,8 @@ syntax on
 #   * textobj-indent      -> https://github.com/kana/vim-textobj-indent
 #   * textobj-word-column -> https://github.com/coderifous/textobj-word-column.vim
 #   * surround            -> https://github.com/tpope/vim-surround
-#   * tabular -> https://github.com/godlygeek/tabular
+#   * tabular             -> https://github.com/godlygeek/tabular
+#   * fugitive -> https://github.com/tpope/vim-fugitive
 
 # Options
 set autoindent
@@ -42,7 +43,7 @@ set ignorecase
 set incsearch
 set laststatus=0
 set list
-set listchars=trail:·,tab:→\ 
+set listchars=trail:·,tab:→\
 set matchpairs=(:),{:},[:],<:>
 set mouse=a
 set nobackup

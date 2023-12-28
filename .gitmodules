@@ -22,3 +22,6 @@
 [submodule ".vim/pack/nc0/start/tabular"]
 	path = .vim/pack/nc0/start/tabular
 	url = https://github.com/godlygeek/tabular
+[submodule ".vim/pack/nc0/start/fugitive"]
+	path = .vim/pack/nc0/start/fugitive
+	url = https://github.com/tpope/vim-fugitive
