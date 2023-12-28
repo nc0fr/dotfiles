@@ -50,9 +50,6 @@ set background=dark
 colo retrobox
 # sorbet is pretty cool too
 
-# Do not use spaces in Go
-autocmd BufEnter * if &filetype == "go" | setlocal noexpandtab
-
 # Keymappings
 
 # Set the leader key, which is the base key for all custom mappings,
