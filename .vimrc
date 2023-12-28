@@ -11,19 +11,7 @@ set nocompatible
 filetype plugin on
 syntax on
 
-# Packages
-#
-# Packages are manually installed within the ".vim/pack/{start,opt}/nc0"
-# directory.  Since most of them are Git repositories, they are included as
-# Git submodules.
-#
-# List of used packages:
-#
-#   * fzf:       https://github.com/junegunn/fzf
-#   * fzf.vim:   https://github.com/junegunn/fzf.vim
-
 # Options
-
 set autoindent
 set autoread
 set backspace=indent,eol,start
@@ -68,12 +56,4 @@ colo retrobox
 # unless required otherwise, the rationale being keys defined on the
 # leader key are most likely to not override any existing binding.
 g:mapleader = ","
-
-# FZF configuration
-
-nmap <Leader>ff :Files<CR>
-nmap <Leader>fb :Buffers<CR>
-nmap <Leader>fw :Windows<CR>
-nmap <Leader>fh :History<CR>
-nmap <Leader>fc :Colors<CR>
 

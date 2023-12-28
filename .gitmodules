@@ -1,6 +1,0 @@
-[submodule ".vim/pack/start/nc0/fzf.vim"]
-	path = .vim/pack/start/nc0/fzf.vim
-	url = https://github.com/junegunn/fzf.vim
-[submodule ".vim/pack/start/nc0/fzf"]
-	path = .vim/pack/start/nc0/fzf
-	url = https://github.com/junegunn/fzf
