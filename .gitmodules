@@ -19,3 +19,6 @@
 [submodule ".vim/pack/nc0/start/surround"]
 	path = .vim/pack/nc0/start/surround
 	url = https://github.com/tpope/vim-surround
+[submodule ".vim/pack/nc0/start/tabular"]
+	path = .vim/pack/nc0/start/tabular
+	url = https://github.com/godlygeek/tabular
