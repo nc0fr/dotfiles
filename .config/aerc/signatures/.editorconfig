@@ -2,20 +2,11 @@
 # Use of this source code is governed by a BSD-style
 # license that can be found in the LICENSE file.
 
-root = true
-
 [*]
 indent_style = space
 indent_size = 4
 end_of_line = lf
 charset = utf-8
-trim_trailing_whitespace = true
-insert_final_newline = true
-
-[*.go]
-indent_style = tab
-indent_size = 8
-
-[*.md]
-trim_trailing_whitespace = false
+trim_trailing_whitespace = falsee
+insert_final_newline = false
 
