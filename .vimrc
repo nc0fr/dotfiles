@@ -25,7 +25,8 @@ syntax on
 #   * textobj-word-column -> https://github.com/coderifous/textobj-word-column.vim
 #   * surround            -> https://github.com/tpope/vim-surround
 #   * tabular             -> https://github.com/godlygeek/tabular
-#   * fugitive -> https://github.com/tpope/vim-fugitive
+#   * fugitive            -> https://github.com/tpope/vim-fugitive
+#   * sneak               -> https://github.com/justinmk/vim-sneake
 
 # Options
 
@@ -92,4 +93,11 @@ nmap <Leader>fh :History<CR>
 # EditorConfig configuration
 
 g:EditorConfig_exclude_patterns = ['fugitive://.*']
+
+# Sneak configuration
+
+map f <Plug>Sneak_f
+map F <Plug>Sneak_F
+map t <Plug>Sneak_t
+map T <Plug>Sneak_T
 
