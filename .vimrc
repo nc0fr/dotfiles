@@ -72,7 +72,7 @@ set wildmode=longest,list,full
 set wildoptions=pum,tagfile
 
 set background=dark
-colo retrobox
+colo gruvbox
 # sorbet is pretty cool too
 
 # Keymappings
