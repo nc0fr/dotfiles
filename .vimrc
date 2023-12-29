@@ -28,6 +28,7 @@ syntax on
 #   * fugitive -> https://github.com/tpope/vim-fugitive
 
 # Options
+
 set autoindent
 set autoread
 set backspace=indent,eol,start
@@ -62,8 +63,8 @@ set title
 set wildmode=longest,list,full
 set wildoptions=fuzzy,pum,tagfile
 
-set background=dark
-colo retrobox
+set background=light
+colo wildcharm
 # sorbet is pretty cool too
 
 # Keymappings
@@ -72,6 +73,12 @@ colo retrobox
 # unless required otherwise, the rationale being keys defined on the
 # leader key are most likely to not override any existing binding.
 g:mapleader = ","
+
+# NetRW configuration
+#
+# NetRW is an amazing plugin to discover files without the issues of a project
+# drawer.
+# See http://vimcasts.org/blog/2013/01/oil-and-vinegar-split-windows-and-project-drawer/
 
 # FZF configuration
 
