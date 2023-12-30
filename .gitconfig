@@ -6,37 +6,47 @@
 
 [color]
     ui = "auto"
+
 [commit]
     gpgSign  = true
-    template = "~/.gitmessage"
+    template = "~/.gitcommit.template"
     status   = true
     verbose  = true
+
 [core]
     editor       = "$EDITOR"
     hideDotFiles = "dotGitOnly"
+
 [credential]
     helper = "cache --timeout=7200"
+
 [format]
     signOff     = true
     coverLetter = "auto"
+
 [help]
     autoCorrect = false
+
 [init]
     defaultBranch = "master"
+
 [push]
     gpgSign = "if-asked"
+
 [sendemail]
     smtpEncryption = "ssl"
     smtpServer     = "smtp.mail.me.com"
     smtpServerPort = 587
     smtpUser       = "n@nc0.fr"
+
 [tag]
     gpgSign = true
+
 [user]
     email      = "n@nc0.fr"
     name       = "Nicolas Paul"
     signingKey = C1478EC71E6E6923
-    username   = "NC0"
+    username   = "nc0"
 
 ; Git LFS configuration (https://git-lfs.github.com)
 [filter "lfs"]
