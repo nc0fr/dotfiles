@@ -3,6 +3,15 @@
 " license that can be found in the LICENSE file.
 vim9script
 
+#                         █████
+#                       ███░░░███
+#  ████████    ██████  ███   ░░███     Nicolas Paul
+# ░░███░░███  ███░░███░███    ░███
+#  ░███ ░███ ░███ ░░░ ░███    ░███     n@nc0.fr
+#  ░███ ░███ ░███  ███░░███   ███      https://x.com/nc0_r
+#  ████ █████░░██████  ░░░█████░
+# ░░░░ ░░░░░  ░░░░░░     ░░░░░░
+#
 # VIM configuration (https://vim.org).
 # See ':help <option>' for a detailled description
 # about each settings.
@@ -87,6 +96,8 @@ g:mapleader = ","
 # NetRW is an amazing plugin to discover files without the issues of a project
 # drawer.
 # See http://vimcasts.org/blog/2013/01/oil-and-vinegar-split-windows-and-project-drawer/
+
+nmap <Leader>t :Explore<CR>
 
 # FZF configuration
 
