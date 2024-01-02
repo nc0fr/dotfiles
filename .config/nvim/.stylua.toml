@@ -2,13 +2,13 @@
 # Use of this source code is governed by a BSD-style
 # license that can be found in the COPYRIGHT file.
 
-column_width = 100
-line_endings = "Unix"
-indent_type = "Spaces"
-indent_width = 2
-quote_style = "AutoPreferSingle"
 call_parentheses = "Input"
+column_width = 80
+indent_type = "Spaces"
+indent_width = 4
+line_endings = "Unix"
+quote_style = "AutoPreferSingle"
 
-[sort_required]
+[sort_requires]
 enabled = true
 
