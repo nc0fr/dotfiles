@@ -21,11 +21,14 @@ source $ZSH/oh-my-zsh.sh
 
 export MANPATH="/usr/local/man:$MANPATH"
 
+# Prefer Neovim
+alias vim="nvim"
+
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
+  export EDITOR='nvim'
 else
-  export EDITOR='vi'
+  export EDITOR='nvim'
 fi
 
 export FZF_DEFAULT_COMMAND='rg --hidden -l ""'
