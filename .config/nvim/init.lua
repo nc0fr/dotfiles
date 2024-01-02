@@ -77,6 +77,6 @@ vim.o.wildmode = 'longest:full'
 vim.o.wildoptions = 'pum'
 vim.o.wrap = true
 
-vim.cmd [[ set background=light ]]
-vim.cmd [[ colo morning]]
+vim.cmd [[ set background=dark ]]
+vim.cmd [[ colo retrobox_vendor ]]
 
