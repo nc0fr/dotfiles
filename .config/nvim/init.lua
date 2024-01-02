@@ -77,5 +77,6 @@ vim.o.wildmode = 'longest:full'
 vim.o.wildoptions = 'pum'
 vim.o.wrap = true
 
-vim.cmd [[ colo desert ]]
+vim.cmd [[ set background=light ]]
+vim.cmd [[ colo morning]]
 
