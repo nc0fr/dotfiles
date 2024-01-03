@@ -11,7 +11,6 @@ local plugins = {
         "nvim-lua/plenary.nvim",
         lazy = true,
     },
-
     {
         "dstein64/vim-startuptime",
         cmd = "StartupTime",
@@ -19,8 +18,7 @@ local plugins = {
             vim.g.startuptime_tries = 10
         end,
     },
-
-    { "nvim-tree/nvim-web-devicons" },
+    "nvim-tree/nvim-web-devicons",
 
     -- UI
 
@@ -51,15 +49,13 @@ local plugins = {
             underline = true,
         },
     },
-
     {
         "folke/tokyonight.nvim",
         lazy = false,
         priority = 1000,
         opts = {},
     },
-
-    { "j-hui/fidget.nvim" },
+    { "j-hui/fidget.nvim", opts = {} },
 
     -- Editor
 
@@ -112,7 +108,6 @@ local plugins = {
             },
         },
     },
-
     {
         "folke/trouble.nvim",
         opts = {
@@ -129,12 +124,9 @@ local plugins = {
             require("nc0.treesitter")
         end,
     },
-
-    { "nvim-treesitter/nvim-treesitter-textobjects" },
-
-    { "nvim-treesitter/nvim-treesitter-context" },
-
-    { "JoosepAlviste/nvim-ts-context-commentstring" },
+    "nvim-treesitter/nvim-treesitter-textobjects",
+    "nvim-treesitter/nvim-treesitter-context",
+    "JoosepAlviste/nvim-ts-context-commentstring",
 
     -- Telescope
 
@@ -144,26 +136,107 @@ local plugins = {
             require("nc0.telescope")
         end,
     },
-
     {
         "nvim-telescope/telescope-fzf-native.nvim",
         build = "make",
     },
 
-    -- LSP
-
-    { "williamboman/mason.nvim" },
-
-    { "williamboman/mason-lspconfig.nvim" },
+    -- IDE features (LSP, DAP, Lint, Fmt)
 
     {
         "neovim/nvim-lspconfig",
-        config = function()
+        init = function()
             require("nc0.lsp")
         end,
     },
+    "b0o/schemastore.nvim",
 
     -- Auto completion
+
+    {
+        "hrsh7th/nvim-cmp",
+        config = function()
+            require("nc0.cmp")
+        end,
+    },
+    "hrsh7th/cmp-nvim-lsp",
+    "hrsh7th/cmp-nvim-lua",
+    "hrsh7th/cmp-path",
+    "hrsh7th/cmp-cmdline",
+    "saadparwaiz1/cmp_luasnip",
+    "f3fora/cmp-spell",
+    "kdheepak/cmp-latex-symbols",
+    "hrsh7th/cmp-buffer",
+    "hrsh7th/cmp-emoji",
+
+    -- Snippets (custom snippets)
+
+    {
+        "L3MON4D3/LuaSnip",
+        build = "make install_jsregexp",
+        config = function()
+            require("nc0.snippets")
+        end,
+    },
+    "rafamadriz/friendly-snippets",
+
+    -- Lualine
+
+    {
+        "nvim-lualine/lualine.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+        opts = {
+            options = {
+                theme = "gruvbox",
+            },
+            sections = {
+                lualine_a = { "mode" },
+                lualine_b = { "branch", "diff", "diagnostics" },
+                lualine_c = {
+                    "filename",
+                    function()
+                        return vim.fn["nvim_treesitter#statusline"](180)
+                    end,
+                },
+                lualine_x = { "encoding", "fileformat", "filetype" },
+                lualine_y = { "progress" },
+                lualine_z = { "location" },
+            },
+        },
+    },
+
+    -- Git
+
+    { "NeogitOrg/neogit", opts = {} },
+    { "lewis6991/gitsigns.nvim", opts = {} },
+
+    -- Utils (refactoring.nvim, GitHub Copilot, &c.).
+
+    "sindrets/diffview.nvim",
+    "github/copilot.vim",
+    {
+        "ThePrimeagen/refactoring.nvim",
+        opts = {
+            prompt_func_return_type = {
+                go = true,
+                java = true,
+                cpp = true,
+                c = true,
+                h = true,
+                hpp = true,
+                cxx = true,
+            },
+            prompt_func_param_type = {
+                go = true,
+                java = true,
+                cpp = true,
+                c = true,
+                h = true,
+                hpp = true,
+                cxx = true,
+            },
+        },
+    },
 }
 
 lazy.setup(plugins, {})
