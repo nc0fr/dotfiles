@@ -1,0 +1,14 @@
+# Copyright 2024 Nicolas Paul.  All rights reserved.
+# Use of this source code is governed by a BSD-style
+# license that can be found in the COPYRIGHT file.
+
+call_parentheses = "Input"
+column_width = 80
+indent_type = "Spaces"
+indent_width = 4
+line_endings = "Unix"
+quote_style = "AutoPreferSingle"
+
+[sort_requires]
+enabled = true
+
