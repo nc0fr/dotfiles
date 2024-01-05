@@ -18,7 +18,7 @@ local wezterm = require 'wezterm'
 -- The configuration itself.
 local config = {}
 
-config.font = 'SF Mono'
+-- config.font = 'SF Mono'
 
 config.color_scheme = "Gruvbox Dark (Gogh)"
 
