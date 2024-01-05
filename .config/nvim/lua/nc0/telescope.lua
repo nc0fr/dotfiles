@@ -22,6 +22,9 @@ telescope.setup({
             sort_lastused = true,
             sort_mru = true,
         },
+        find_files = {
+            hidden = true,
+        },
     },
     extensions = {
         fzf = {
