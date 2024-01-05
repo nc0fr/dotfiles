@@ -237,6 +237,29 @@ local plugins = {
             },
         },
     },
+    {
+        "https://codeberg.org/esensar/nvim-dev-container",
+        dependencies = "nvim-treesitter/nvim-treesitter",
+        opts = {
+            generate_commands = true,
+            autocommands = {
+                -- Automatically start a DevContainer when available.
+                init = false,
+                -- Automatically remove started DevContainers and images when
+                -- exiting.
+                clean = false,
+                -- Automatically update DevContainers and images when
+                -- the configuration changes.
+                update = false,
+            },
+            log_level = "info",
+            disable_recursive_config_search = false,
+            cache_image = true,
+            attach_mounts = {},
+            container_runtime = "podman",
+            compose_command = "podman-compose",
+        },
+    },
 }
 
 lazy.setup(plugins, {})
