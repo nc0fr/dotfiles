@@ -27,8 +27,8 @@ config.inactive_pane_hsb = {
   brightness = 0.8,
 }
 
-config.window_background_opacity = 0.8
-config.text_background_opacity = 0.5
+config.window_background_opacity = 0.9
+config.text_background_opacity = 1
 
 -- config.hide_tab_bar_if_only_one_tab = true
 
