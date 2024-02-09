@@ -1,9 +1,14 @@
-Nicolas Paul's configuration files
-----------------------------------
+Nicolas Paul's public dotfiles
+==============================
 
-This repository contains a set of the main configuration files for
-tools used by Nicolas Paul [0].  There are expected to be copied into
-the $HOME directory.
+  o https://nc0.fr
+
+  o <n@nc0.fr>
 
 
-[0]: https://NC0.fr
+Legal
+-----
+
+Unless otherwise noted, source in this repository are governed under the
+Nicolas Paul Public License, Version 1.0.  You may obtain a copy of the
+license in the COPYRIGHT file.
