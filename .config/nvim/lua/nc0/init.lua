@@ -1,6 +1,6 @@
--- Copyright 2024 Nicolas Paul.  All rights reserved.
--- Use of this source code is governed by a BSD-style
--- license that can be found in the COPYRIGHT file.
+-- Copyright (c) 2023 Nicolas Paul.  All rights reserved.
+-- Use of this source file is governed by the Nicolas Paul
+-- Public License, Version 1.0, present in the COPYRIGHT file.
 
 -- TODO(nc0): Completion for APL and J symbols, probably using
 -- `nvim-cmp`, in a similar fashion the `cmp-latex-symbols` plugin or

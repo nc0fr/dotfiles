@@ -1,6 +1,6 @@
-" Copyright 2023 Nicolas Paul. All rights reserved.
-" Use of this source code is governed by a BSD-style
-" license that can be found in the LICENSE file.
+" Copyright (c) 2023 Nicolas Paul.  All rights reserved.
+" Use of this source file is governed by the Nicolas Paul
+" Public License, Version 1.0, present in the COPYRIGHT file.
 
 " Zig standard styleguide:
 " https://ziglang.org/documentation/0.11.0/#Style-Guide
