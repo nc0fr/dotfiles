@@ -1,3 +1,3 @@
 alias vim="nvim"
 
-export EDITOR="vim"
+export EDITOR="nvim"
