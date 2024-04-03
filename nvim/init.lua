@@ -74,16 +74,7 @@ vim.opt.guifont = 'MonoLisa Nerd Font:h12'
 -- Because I type to quickly
 vim.keymap.set('n', 'W', 'w')
 vim.keymap.set('n', 'Wq', 'wq')
-
--- Disable arrow keys, I want to use hjkl instead.
-vim.api.nvim_set_keymap('n', '<Up>', '<Nop>',
-    { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<Down>', '<Nop>',
-    { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<Left>', '<Nop>',
-    { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<Right>', '<Nop>',
-    { noremap = true, silent = true })
+vim.keymap.set('n', 'U', ':redo')
 
 -- See http://vimcasts.org/blog/2013/01/oil-and-vinegar-split-windows-and-project-drawer/
 vim.api.nvim_set_keymap('n', '<Leader>t', ':Explore<CR>',
