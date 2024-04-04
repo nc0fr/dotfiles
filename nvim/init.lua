@@ -80,7 +80,7 @@ vim.keymap.set('n', 'U',  ':redo')
 
 -- See:
 -- http://vimcasts.org/blog/2013/01/oil-and-vinegar-split-windows-and-project-drawer/
-vim.api.nvim_set_keymap('n', '<Leader>t', ':Explore<CR>')
+vim.keymap.set('n', '<Leader>t', ':Explore<CR>')
 
 -- Quick way to :nohl
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
