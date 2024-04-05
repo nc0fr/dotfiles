@@ -38,6 +38,7 @@ vim.g.have_nerd_font = false
 -- configuration compared to classical VIM 8.
 vim.opt.autoindent     = false
 vim.opt.clipboard      = 'unnamed'
+vim.opt.colorcolumn    = '80'
 vim.opt.cursorline     = true
 vim.opt.hlsearch       = true
 vim.opt.ignorecase     = true
