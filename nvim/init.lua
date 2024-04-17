@@ -40,13 +40,14 @@ vim.opt.autoindent     = false
 vim.opt.clipboard      = 'unnamed'
 vim.opt.colorcolumn    = '80'
 vim.opt.cursorline     = true
+vim.opt.expandtab      = true
 vim.opt.hlsearch       = true
 vim.opt.ignorecase     = true
 vim.opt.inccommand     = 'split'
 vim.opt.list           = true
-vim.opt.listchars      = { tab   = '» '
-                         , trail = '·'
-                         , nbsp  = '␣' }
+vim.opt.listchars      = { tab = '» ',
+                           trail = '·',
+                           nbsp  = '␣' }
 vim.opt.mouse          = 'a'
 vim.opt.number         = true
 vim.opt.relativenumber = true
