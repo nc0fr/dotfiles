@@ -1,10 +1,11 @@
 ; Git configuration (https://git-scm.com)
+
 [color]
     ui = "auto"
 
 [commit]
     gpgSign  = true
-    template = "~/.gitcommit.template"
+    template = "~/commit.template"
     status   = true
     verbose  = true
 
@@ -40,7 +41,7 @@
 [user]
     email      = "n@nc0.fr"
     name       = "Nicolas Paul"
-    signingKey = C1478EC71E6E6923
+    signingKey = 8D9B0AA6E30AF7B283D38EF3DAD5245AD7171B7F
     username   = "nc0"
 
 ; Git LFS configuration (https://git-lfs.github.com)
