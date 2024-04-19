@@ -3,4 +3,4 @@
 " license that can be found in the COPYRIGHT file.
 
 setlocal colorcolumn=80
-setlocal expandtab=false
+setlocal noexpandtab
