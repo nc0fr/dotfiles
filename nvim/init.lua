@@ -55,6 +55,7 @@ vim.opt.scrolloff      = 15
 vim.opt.showmode       = false
 vim.opt.signcolumn     = 'yes'
 vim.opt.smartcase      = true
+vim.opt.spell          = true
 vim.opt.splitbelow     = true
 vim.opt.splitright     = true
 vim.opt.undofile       = true
