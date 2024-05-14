@@ -36,7 +36,7 @@ vim.opt.splitright     = true
 vim.opt.undofile       = true
 
 -- TODO(nc0): support background setting given the OS settings.
-vim.opt.termguicolors = true
+vim.opt.termguicolors = false
 vim.opt.background    = 'light'
 vim.cmd('colorscheme default')
 
