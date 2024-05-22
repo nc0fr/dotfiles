@@ -37,8 +37,7 @@ vim.opt.undofile       = true
 
 -- TODO(nc0): support background setting given the OS settings.
 vim.opt.termguicolors = false
-vim.opt.background    = 'light'
-vim.cmd('colorscheme default')
+vim.cmd('colorscheme retrobox')
 
 -- Set the font to use MonoLisa, a font I bought and love.
 -- Only useful when using GUI version of VIM, which I will probably never do.
