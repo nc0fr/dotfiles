@@ -48,10 +48,7 @@ vim.opt.guifont = 'MonoLisa Nerd Font:h12'
 -- I do not want to feel lost when I'm using another Neovim instance, e.g.
 -- remote servers.
 
--- Because I type to quickly
-vim.keymap.set('n', 'W',  'w')
-vim.keymap.set('n', 'Wq', 'wq')
-vim.keymap.set('n', 'U',  ':redo')
+vim.keymap.set('n', 'U',  ':redo<CR>')
 
 -- See:
 -- http://vimcasts.org/blog/2013/01/oil-and-vinegar-split-windows-and-project-drawer/
